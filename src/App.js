@@ -6,7 +6,7 @@ import Cart from "./components/Cart";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="react-redux-toolkit">
         <Navbar />
         <Routes>
           <Route path="/" element={<Product />} />
